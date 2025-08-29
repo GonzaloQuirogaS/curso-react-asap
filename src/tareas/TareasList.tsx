@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import type { RootState, AppDispatch } from '../app/Store';
+import type { RootState, AppDispatch } from '../app/store';
 import { eliminarTarea, toggleCompletado, modificarTarea, } from './tareaSlice';
 
 const TareasList: React.FC = () => {
